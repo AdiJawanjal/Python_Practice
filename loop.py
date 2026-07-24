@@ -32,3 +32,18 @@ while (i<10):
     print(i)
 # In this print statement is after the condition and continue will avoide the process after the continue
 # so it will print 1 to 8 and will ignore 5
+#-----------------------------------------------------------------------------
+    
+#Pass is a place holder that do nothing
+
+i = 1
+while (i<10):
+    i += 1
+    if i == 5:
+        pass
+        print("5 Star do nothing")
+    print(i)
+    
+# On the 5th line it will print "5 Star do nothing"
+
+#---------------------------------------------------------------------------
