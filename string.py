@@ -46,4 +46,17 @@ print(new_text)
 pi =3.14159265 
 print(f"Pi rounded to 2 decimal places: {pi:.2f}")
 # O/P = 3.14
+#---------------------------------------------------------------------
+
+# Alignment
+
+text ="Python" 
+print(f"{text:>10}")# Right align 
+print(text)
+print(f"{text:<10}") # Left align 
+print(f"{text:^10}") # Center align
+
+# it just add spaces like if right align then it will add sapce on the left side like this "    Python" and for center "  Python  "
+#-------------------------------------------------------------------
+
 
