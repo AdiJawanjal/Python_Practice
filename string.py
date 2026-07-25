@@ -11,6 +11,9 @@ text ="Hello, Python!"
 print(text[0:8]) #The o/p will befrom H to P,
 
 # String slicing prints the range of index that u provide
+#-----------------------------------------------------------------------------------------
+
+# Step parimeters
 
 print(text[::2]) # o/p will be Hlo yhn
 # This will print every second character, o/p will be Hlo yhn
