@@ -10,6 +10,10 @@ c = '''This is a multi-line string.'''
 text ="Hello, Python!"
 print(text[0:8]) #The o/p will befrom H to P,
 
+text = "Welcome to Python!" 
+print(text[:7]) # Output: Welcome 
+print(text[-7:]) # Output: Python!
+
 # String slicing prints the range of index that u provide
 #-----------------------------------------------------------------------------------------
 
