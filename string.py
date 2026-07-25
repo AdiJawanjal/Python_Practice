@@ -31,3 +31,19 @@ print("My name is {} and I am {} years old.".format(name, age))
 # Using f-strings (Python 3.6+) 
 print(f"My name is {name} and I am {age} years old.") 
 #O/p will be same
+#----------------------------------------------------------------------------------
+
+text ="apple,banana,orange" 
+print(len(text))
+fruits = text.split(",") 
+print(len(fruits))
+print(fruits)
+new_text =" - ".join(fruits) 
+print(new_text)
+
+#-------------------------------------------------------------------
+
+pi =3.14159265 
+print(f"Pi rounded to 2 decimal places: {pi:.2f}")
+# O/P = 3.14
+
