@@ -14,3 +14,13 @@ print(text[0:8]) #The o/p will befrom H to P,
 
 print(text[::2]) # o/p will be Hlo yhn
 # This will print every second character, o/p will be Hlo yhn
+
+#----------------------------------------------------------------------------------
+# String Formating
+
+name ="John" 
+age =25 # Using format() 
+print("My name is {} and I am {} years old.".format(name, age))
+# Using f-strings (Python 3.6+) 
+print(f"My name is {name} and I am {age} years old.") 
+#O/p will be same
